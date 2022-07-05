@@ -1,0 +1,136 @@
+/* RESPONSIVE BEGIN */
+@media (max-width: 1024px) { 
+    .hireus {
+        padding: 1em 0;
+    }
+}
+
+@media (max-width: 990px) { 
+    /* TYPOGRAPHY BEGIN */
+    h1{font-size: 2rem; }
+    h2{font-size: 35px; }
+    h3{font-size: 40px;}
+    h4{font-size: 40px;}
+    h5{font-size: 40px;}
+    /* TYPOGRAPHY END */
+
+    .navbar-nav .button-theme{
+        margin: 0 !important;
+        width: 40%;
+        text-align: center;
+        padding: 0.4em 0.4em !important;
+    }
+    .header{
+        height: auto;
+        background-color: #456E83;
+        background: linear-gradient(125deg, rgba(0, 0, 0, 0.518) , rgba(31, 110, 160, 0.505)),
+        url("../images/header-img.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header .row{
+        justify-content: center;
+    }
+
+    .hireus-img {
+        align-self: center;
+        width: 50%;
+    }
+
+    .hireus-img img{
+        width: 80%;
+    }
+
+    .freelance{
+        background-position: center;
+    }
+
+    .freelance-content p {
+       width: 63%;
+    }
+
+    .secret-content .button-theme{
+        padding: 0.3em 1.5em !important;
+    }
+
+    .expert .col-lg-4 img{
+        width: 80%;
+    }
+    
+.secret-content p {
+    width: 100%;
+    font-size: 15px;
+}
+
+.expert p{
+    width: 90%;
+}
+
+
+
+}
+@media (max-width: 768px) { 
+
+ 
+    .expert .col-lg-4 img{
+        width: 74%;
+    }
+
+    .process-modal-box .model-box-img img {
+        width: 55%;
+    }
+
+    .process-modal-box{
+        padding: 2em;
+    }
+
+    .hireus .row{
+        justify-content: center;
+    }
+
+    
+    .hireus-img {
+        text-align: center;
+        width: 80%;
+    }
+
+    .meet .container .row .col-12 .meet-content{
+        width: 75%;
+    }
+
+    .expert .col-lg-4{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) { 
+
+    h1{font-size: 2.1rem !important}
+    h2{font-size: 2rem;}
+    h3{font-size: 1.5rem;}
+    h4{font-size: 1rem;}
+    h5{font-size: 0.9rem;}
+    p{font-size: 0.8rem !important}
+
+
+    .owl-carousel .owl-item img{
+        display: block;
+        width: 55% !important;
+        margin: auto;
+    }
+
+    .hireus-align , .expert-content , .about-content , .secret-content , .secret-content .button-theme{
+        text-align: center !important;
+    }
+
+    .secret-content .button-theme , .expert-content .button-theme {
+        margin: auto !important;
+    }
+
+    .secret-content .button-theme{
+        margin-top: 1em !important;
+    }
+
+}
+/* RESPONSIVE END */
